@@ -1,12 +1,11 @@
-body {
-  font: 20px "Lucida Grande", Helvetica, Arial, sans-serif;
-  padding: 10px;
+@import "variables";
+@import "bootstrap_custom";
+
+nav {
+  @extend .navbar, .navbar-default, .navbar-fixed-top;
 }
 
-a {
-  color: #00b7ff;
-}
-
-main {
-  background-color: #ff0000;
+.navigation {
+  @extend .container-fluid;
+  background-color: $padding-color;
 }

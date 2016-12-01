@@ -1,5 +1,6 @@
 {
     "disallowBlockExpansion": true,
+    "disallowAttributeConcatenation":true,
     "disallowClassAttributeWithStaticValue": true,
     "disallowClassLiteralsBeforeIdLiterals": true,
     "disallowDuplicateAttributes": true,

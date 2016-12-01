@@ -39,8 +39,7 @@ export class ServerApp {
     }
 
     public startServer() {
-        this._App.listen(5000);
-        console.log("Server is running on port 5000");
+        this._App.listen(8000);
     }
 
 
